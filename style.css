@@ -1,0 +1,65 @@
+.slidebar{
+    position: fixed;
+    z-index: 53853;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+}
+.slidebar-btn{
+    position: fixed;
+    z-index: 53853;
+    left: 250px;
+    top: 0;
+    bottom: 0;
+    width: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    body{
+        background-color: #000000f2;
+        color: white;
+    }
+
+
+.slidebar ul li a {
+    font-size: 24;
+    text-decoration: none;
+    
+    color: white;
+   
+}
+.slidebar ul li{
+    list-style-type: none;
+    padding: 10px 0;
+}
+.form-control {
+    border: none;
+    border-bottom: white;
+    border-width: 3px;
+    border-style: solid;
+}
+.col-md-3{
+    position: relative;
+    cursor: pointer;
+}
+.item-describtion{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+   opacity: 0;
+}
+.icons{
+ color:#e65a50ab ;  
+}
+
